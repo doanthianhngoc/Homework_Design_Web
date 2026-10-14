@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator A and B</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <label for="numberA">Number A (*)</label>
+        <input type="number" id="numberA" value="6">
+
+        <label for="numberB">Number B (*)</label>
+        <input type="number" id="numberB" value="7">
+
+        <div class="operations">
+            <div class="operation">
+                <span>Summation :</span>
+                <button type="button" onclick="calculate('+')">+</button>
+            </div>
+
+            <div class="operation">
+                <span>Subtraction :</span>
+                <button type="button" onclick="calculate('-')">-</button>
+            </div>
+
+            <div class="operation">
+                <span>Multiplication :</span>
+                <button type="button" onclick="calculate('*')">*</button>
+            </div>
+
+            <div class="operation">
+                <span>Division :</span>
+                <button type="button" onclick="calculate('/')">/</button>
+            </div>
+        </div>
+
+        <label for="result">Result A &amp; B:</label>
+        <input type="text" id="result" readonly>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

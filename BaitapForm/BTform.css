@@ -1,0 +1,100 @@
+.myweb{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    background-color: rgb(14, 219, 161);
+    height: 100%;
+    
+}
+.myweb h1{
+    font-size: 50px;
+}
+.myweb p{
+    font-size: 30px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 10%;
+    background-color: black;
+    color: aliceblue;
+}
+.menu li{
+    font-size: 25px;
+}
+.body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    height: 100%;
+}
+.aboutme{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 100%;
+    padding-bottom: 300px;
+    background-color: #dbd6d6;
+}
+.aboutme p{
+    font-size: 20px;
+}
+.photome{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    height: 50%;
+}
+.photome img{
+    height: auto;
+    max-height: 100px;
+    object-fit: cover;
+}
+.moreText{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    gap: 10px;
+}
+.moreText img{
+    height: auto;
+    max-height: 100px;
+    object-fit: cover;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height: 100%;
+}
+.title1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    max-height: 50%;
+}
+.title1 img{
+    height: auto;
+    max-height: 215px;
+    object-fit: cover;
+}
+.title1 p{
+    font-size: 20px;
+}
+.footer{
+    display: flexbox;
+    flex-direction: column-reverse;
+    justify-content: center;
+    text-align: center;
+    background-color: gray;
+    padding: 30px;
+    height: auto;
+    font-size: 30px;
+    color: black;
+}

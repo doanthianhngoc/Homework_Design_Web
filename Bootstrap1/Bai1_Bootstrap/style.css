@@ -1,0 +1,112 @@
+/* Áp dụng cho tất cả phần tử */
+* {
+    box-sizing: border-box;
+}
+
+/* Header */
+.header {
+    background-color: #e5e5e5;
+    padding: 30px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    color: hsl(0, 1%, 26%);
+    font-size: 40px;
+}
+
+
+/* Menu bên trái */
+.menu {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+/* Các link trong menu */
+.menu a {
+    background-color: #e5e5e5;
+    padding: 15px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    display: block;
+    width: 100%;
+    color: black;
+    text-decoration: underline;
+}
+
+
+/* Nội dung chính */
+.main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+}
+
+.main h2 {
+    color: hsl(0, 1%, 26%);
+    font-size: 35px;
+}
+
+.main p {
+    color: hsl(0, 1%, 26%);
+    font-size: 25px;
+}
+
+
+/* Phần About bên phải */
+.right {
+    background-color: #e5e5e5;
+    float: left;
+    width: 20%;
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+.right h2 {
+    color: hsl(0, 1%, 26%);
+    font-size: 35px;
+}
+
+.right p {
+    color: hsl(0, 1%, 26%);
+    font-size: 25px;
+}
+
+
+/* Footer */
+.footer {
+    clear: both;
+    background-color: #e5e5e5;
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+    color: hsl(0, 1%, 26%);
+    font-size: 25px;
+}
+
+
+/* Responsive cho màn hình nhỏ */
+@media only screen and (max-width: 628px) {
+
+    .menu,
+    .main,
+    .right {
+        width: 100%;
+    }
+
+    .header h1 {
+        font-size: 32px;
+    }
+
+    .main {
+        padding: 0 20px;
+    }
+
+    .right {
+        margin-top: 7px;
+    }
+}
